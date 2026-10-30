@@ -30,7 +30,7 @@ th, td{
 
 @font-face{
     font-family: minecraft;
-    src: url(minecraftFONT/Minecraft.ttf);
+    src: url('Minecraft.ttf');
 }
 
 
