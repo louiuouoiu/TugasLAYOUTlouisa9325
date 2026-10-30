@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout HTML & CSS</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="perkenalanTABLE.css">
+    </head>
+    <body>
+        <div class="kepala">
+            <h1>KUMPULAN TUGAS TIK</h1>
+            <p>Louisa IX-3/25</p>
+        </div>
+        <div class="navup">
+            <a href="index.html">Biodata</a>
+            <a href="table.html">Table</a>
+            <a href="list.html">List</a>
+            <a href="sts.html">STS</a>
+        </div>
+
+<!-- yg biasa -->
+<h1>Tabel Nilai Siswi</h1>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama Siswa</th>
+            <th>Mata Pelajaran</th>
+            <th class="grade">Nilai</th>
+        </tr>
+        <tr>
+            <td class="grade">1</td>
+            <td>Vita</td>
+            <td>Bahasa Indonesia</td>
+            <td class="grade">99</td>
+        </tr>
+        <tr>
+            <td class="grade">2</td>
+            <td>Eleine</td>
+            <td>IPA</td>
+            <td class="grade">100</td>
+        </tr>
+        <tr>
+            <td class="grade">3</td>
+            <td>Clara</td>
+            <td>IPS</td>
+            <td class="grade">98</td>
+        </tr>
+        <tr>
+            <td class="grade">4</td>
+            <td>Moza</td>
+            <td>Bahasa Inggris</td>
+            <td class="grade">96</td>
+        </tr>
+        <tr>
+            <td class="grade">5</td>
+            <td>Leva</td>
+            <td>Kesenian</td>
+            <td class="grade">98</td>
+        </tr>
+    </table>
+
+<!-- gabungan -->
+<h1>Tabel Gabungan</h1>
+        <!-- rowspan -> menggabungkan BARIS
+            colspan -> menggabungkan KOLOM -->
+
+        <table>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Nama Siswa</th>
+                <th rowspan="2">Mata Pelajaran</th>
+                <th colspan="2">Nilai</th>
+            </tr>
+
+            <tr>
+                <th>Ulangan 1</th>
+                <th>Ulangan 2</th>
+            </tr>
+
+            <tr>
+                <td class="grade">1</td>
+                <td>Vita</td>
+                <td>IPA</td>
+                <td class="grade">98</td>
+                <td class="grade">95</td>
+            </tr>
+
+            <tr>
+                <td class="grade">2</td>
+                <td>Maddy</td>
+                <td>Matematika</td>
+                <td class="grade">100</td>
+                <td class="grade">100</td>
+            </tr>
+
+            <tr>
+                <td class="grade">3</td>
+                <td>Leva</td>
+                <td>Agama</td>
+                <td class="grade">97</td>
+                <td class="grade">99</td>
+            </tr>
+
+            <tr>
+                <td class="grade">4</td>
+                <td>Emily</td>
+                <td>TIK</td>
+                <td class="grade">93</td>
+                <td class="grade">97</td>
+            </tr>
+
+            <tr>
+                <td class="grade">5</td>
+                <td>Leticia</td>
+                <td>Bahasa Inggris</td>
+                <td class="grade">93</td>
+                <td class="grade">95</td>
+            </tr>
+        </table>
+
+<!-- complicated unnecesarry block of letters -->
+
+<h1>Tabel ABC</h1>
+
+<table>
+    <tr class="abc">
+        <td rowspan="3" class="abc">a</td>
+        <td rowspan="2" class="abc">b</td>
+        <td colspan="2" class="abc">c</td>
+        <td rowspan="3" class="abc">d</td>
+        <td rowspan="4" class="abc">e</td>
+        <td rowspan="2" class="abc">n</td>
+        <td rowspan="6" class="abc">h</td>
+    </tr>
+
+    <tr class="abc">
+        <!-- <td></td>
+        <td></td> -->
+        <td class="abc">f</td>
+        <td class="abc">g</td>
+    </tr>
+
+    <tr>
+        <td class="abc">i</td>
+        <td class="abc">j</td>
+        <td class="abc">k</td>
+        <td rowspan="2" class="abc">o</td>
+    </tr>   
+
+    <tr>
+        <td colspan="5" class="abc">m</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2" class="abc">p</td>
+        <td colspan="2" class="abc">q</td>
+        <td rowspan="2" class="abc">r</td>
+        <td class="abc">u</td>
+        <td class="abc">v</td>
+        <td class="abc">w</td>
+    </tr>
+
+    <tr>
+        <td class="abc">s</td>
+        <td class="abc">t</td>
+        <td class="abc">x</td>
+        <td class="abc">y</td>
+        <td class="abc">z</td>
+    </tr>
+</table>
+
+<div class="kaki">
+        <p>Louisa IX-3/25</p>
+    </div>
+
+</body>
+</html>

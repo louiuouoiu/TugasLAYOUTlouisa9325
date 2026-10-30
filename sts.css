@@ -1,0 +1,297 @@
+body{
+   background-image: url("notebook.png");
+   background-size: 1466px 768px;
+   /* background-position: center; */
+   background-repeat: repeat;
+}
+
+main{
+    margin-right: 90px;
+    margin-left: 150px;
+}
+
+@font-face {
+    font-family: title;
+    src: url(hello_baby/Hello\ Baby.otf);
+}
+
+@font-face {
+    font-family: text;
+    src: url(handwriting_16/Handwriting-Regular.otf);
+}
+
+p{
+    font-family: "text";
+    font-size: 20pt;
+}
+
+h1{
+    font-family: "title";
+    font-size: 50pt;
+
+    transition: transform 0.5s ease-in-out; 
+}
+
+h1:hover{
+    transform: scale(1.1) rotate(1deg);
+}
+
+h2{
+    font-family: "title";
+    font-size: 40pt;
+
+    padding-top:40px;
+}
+
+/* .box1{
+    width: 800px;
+    height: 300px;
+    border: 5px dotted;
+} */
+
+.box1 p{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/* .box1 img{
+    float: right;
+    
+    width:250px;
+    height: auto;
+
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+    rotate: 2deg;
+
+    box-shadow: 5px 5px ;
+} */
+
+.box2{
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    gap:25px;
+    /* padding: 20px; */
+    
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.jeniz{
+    width: 220px;
+    height: 1000px;
+
+    border: 2px dotted;
+    text-align: center;
+
+    /*  */
+}
+
+/* .jeniz p{
+    text-align: center;
+} */
+
+.jeniz img{
+    width: 200px;
+    height: auto;
+}
+
+.long{
+    font-size: 18pt;
+    text-align: justify;
+
+    padding-left:20px;
+    padding-right: 20px;
+
+    text-indent: 10px;
+}
+
+.long1{
+    font-size: 18pt;
+    text-align: justify;
+
+    padding-left:20px;
+    padding-right: 20px;
+
+    text-indent: 10px;
+    
+    padding-top: 290px;
+}
+
+.solution{
+    font-family: "title";
+    font-size: 40pt;
+
+    padding-top:40px;
+    text-align: center;
+
+    rotate: -2deg;
+}
+
+.box3{
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    gap:100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alone, .tgt{
+    width: 400px;
+    height: 300px;
+
+    /* border: 1px solid; */
+}
+
+.box3 img{
+    width: 200px;
+    height: auto;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alone img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tgt img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.points{
+    font-size: 18pt;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+
+.end{
+    padding-top: 300px;
+    text-align: center;
+
+    rotate: 2deg;
+}
+
+.box4{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.box4 p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+.uspecial:hover{
+    background-color: rgba(255, 255, 0, 0.5);
+    padding: 4px 8px;
+}
+
+.polaroid{
+    position: relative;
+    width: 350px;
+    height: 250px;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* added this */
+    background-color: white;
+    text-align: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 60px;
+    padding-top: 25px;
+    
+    box-shadow: 10px 10px 0px 0.5px black;
+    /* width: 300px; */
+
+    float: right;
+
+    width:250px;
+    height: 350px;
+
+    margin-left: 20px;
+    margin-bottom: 15px;
+    rotate: 2deg;
+
+}
+
+.polaroid img{
+    width: 250px;
+    height: auto;
+
+    position: absolute;
+    /* width: 320px;
+    height: 200px; */
+
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.polaroid img.top{
+    opacity: 1;
+    z-index: 2; /*layerz*/
+}
+
+.polaroid:hover img.top{
+    opacity: 0;
+    transform: translate(1.1);
+}
+
+/* idea for hover::after
+
+imean all the other images jg bisa change klo hover but idk ganti ke apa
+*/
+
+.jeniz img{
+    width: 250px;
+    height: auto;
+
+    position: absolute;
+
+    
+
+    transition: transform 0.5s ease, opacity 0.5s ease;
+
+}
+
+.jeniz img.top{
+    opacity: 1;
+    z-index: 2; 
+}
+
+.jeniz:hover img.top{
+    opacity: 0;
+    transform: translate(1.1);
+}
+
+.jeniz img{
+    width: 200px;
+    height: auto;
+} 
+

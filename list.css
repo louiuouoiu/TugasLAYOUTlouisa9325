@@ -1,0 +1,89 @@
+h3{
+    font-size: 20pt;
+}
+
+body{
+    background-image: url(windowsxp.jpg);
+   background-size: 1466px 2000px;
+   background-repeat: no-repeat;
+}
+
+ol{
+    /* list-style-type: lower-alpha; */
+    list-style-type: upper-roman;
+
+    /* u bisa aturin di html juga if u want idk :) */
+
+    margin-bottom: 50px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-family: mc;
+    border: solid 2px #75485E;
+
+    background-color: #DFCC74;
+}
+
+.summa{
+    background-color: #75485E;
+    /* color: white; */
+}
+
+@font-face{
+    font-family: mc;
+    src: url(minecraftFONT/Minecraft.ttf);
+}
+
+.texts{
+    color: white;
+}
+
+li{
+    background-color:#DFCC74;
+    border: solid 2px #CB904D;
+    padding:4px;
+    margin: 3px;  
+}
+
+h3{
+    margin-bottom:0px ;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-family: mc;
+
+}
+
+.xtra{
+    list-style-type:decimal;
+
+    background-color: #75485E;
+}
+
+
+.icons svg, .icons span{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+
+    font-family: mc;
+}
+
+/* .icons span{
+    /* margin-left: 4px; */
+
+.isi{
+    display: flex;
+    gap: 2px; 
+    align-items: center;
+
+    font-family: mc;
+}
+
+span{
+    font-family: mc;
+}
+
+/* fontawsome.com for icons n js copy the code they alr have there (go to html n svg) */

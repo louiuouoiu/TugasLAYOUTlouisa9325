@@ -1,0 +1,80 @@
+body{
+    background-image: url(windowsxp.jpg);
+   background-size: 1466px 1100px;
+   background-repeat: no-repeat;
+}
+
+table, th, td{
+    text-decoration: none;
+    border: 1px solid;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+    background-color: #DFCC74;
+    
+}   
+
+h1{
+    font-family: minecraft;
+    /* background-color: blanchedalmond; */
+
+    padding-top: 40px;
+}
+
+th, td{
+    font-family: minecraft;
+    font-style: none;   
+}
+
+@font-face{
+    font-family: minecraft;
+    src: url(minecraftFONT/Minecraft.ttf);
+}
+
+
+td:nth-child(even){
+    background-color: #C3E991;
+}  
+    
+th:nth-child(odd){
+    background-color: #C3E991;
+}
+
+td:hover{
+    background-color: black;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+th, td{
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.grade{
+    text-align: center;
+}
+
+.abc{
+    height: 20px;
+    width: 20px;
+}
+
+.abc{
+    text-align: center;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}

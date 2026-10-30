@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* HEADER CUSTOMIXATION */
+.kepala{
+    background-color: bisque;
+    padding: 20px ;
+    text-align: center;
+
+    background-image: url(sunflowaa.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-shadow: 2px 3px 5px white;
+}
+
+/* TOP NAVIGATION CUSTOMIZATION */
+.navup{
+    overflow: hidden; /*hide if kebanyakan*/
+    background-color: darkblue;
+}
+
+.navup a{
+    float: left;
+    display: block;
+    text-align: center;
+    
+    padding: 14px 16px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.navup a:hover{
+    background-color: darkkhaki;
+    color: black;
+}
+
+/* FOOTER CUSTOMIZATION */
+.kaki{
+    background-color: beige;
+    padding: 15px;
+    text-align: center;
+}

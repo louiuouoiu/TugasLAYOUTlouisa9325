@@ -1,0 +1,417 @@
+/*main idea: instead of a border and image, make polaroid -->*/
+
+body{
+    background-image: url("windowsxp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2{
+    background-color: rgba(255,255,255,0.5);
+    
+    color:black;
+    width: auto;
+    height: 30px;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "minecraft";
+    font-size: 14pt;
+}
+
+h1{
+    text-align: center;
+    font-family: "dimitri";
+
+    text-shadow: 2px 3px 5px white;
+    font-size: 30pt;
+}
+
+p{
+    font-family: "minecraft";
+    font-size: 12pt;
+}
+
+.base{
+    background-color: rgba(255,255,255,0.5);
+    margin: 30px auto;
+    width: 70%;
+    padding: 30px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maininfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px; /*gap between image n text*/
+}
+
+/* .sunflower{
+    width: 100px;
+    max-width: 100%;
+} */
+
+@font-face {
+    font-family: dimitri;
+    src: url("dimitriFONT/DIMITRI_.TTF");
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url("minecraftFONT/Minecraft.ttf");
+}
+
+
+/* CHANGED STUFF HERE!!! */
+.image{
+    position: relative;
+    width: 350px;
+    height: 250px;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* added this */
+    background-color: white;
+    border-radius: 20px ;
+
+    text-align: center;
+    rotate: 2deg;
+    padding: 5px;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    box-shadow: 10px 10px 0px 0.5px black;
+
+    /* display: block;
+    margin: auto; */
+}
+
+.image img{
+    position: absolute;
+    width: 320px;
+    height: 200px;
+
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.image img.top{
+    opacity: 1;
+    z-index: 2; /*layerz*/
+}
+
+.image:hover img.top{
+    opacity: 0;
+    transform: translate(1.1);
+}
+
+.hobitext{
+    width: 180px;
+    height: auto;
+
+    margin: 0 auto;
+    display: block;
+    rotate: -1deg;
+
+
+    box-shadow: 10px 10px 0px 0.5px black;
+}
+
+.hobbies{
+    display:grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 40px;
+    padding: 20px; 
+
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.hobbies p{
+    text-align: center;
+
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.hobbies img{
+    width: 200px;
+    height: auto;
+
+    margin: 0 auto;
+    display: block;
+    
+    border-radius:10px;
+}
+
+audio{
+    display: block;
+
+    width: 70%;
+
+    margin: 30px auto; /*center this here */
+    
+    border-radius: 100px;   /*to understand this part js comment on this part*/
+    box-shadow: 10px 10px 0px black;
+}
+
+
+.textt{
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding:5px;
+    width: 300px;
+    border-radius: 10px;
+
+    font-size: 15pt;
+    margin: 20px auto;
+
+    rotate: -1deg;
+}
+
+.animalzrow2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+        .cat img{
+            width: 250px;
+            filter:drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.8));
+        }
+
+        .cat p{
+            color: white;
+        }
+
+        .cat{
+            text-align: center;
+        }
+
+.shark img{
+    width: 300px;
+}
+
+.animalzrow2 p{
+    text-align: center;
+   color: white;
+}
+
+.pokemontext{
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding:5px;
+    width: 300px;
+    border-radius: 10px;
+
+    font-size: 15pt;
+    margin: 20px auto;
+
+    rotate: 1deg;
+
+    margin-top: 500px;
+}
+
+.spotify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 20px;
+}
+
+.pokemon{
+    display:grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 40px;
+    padding: 20px; 
+
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box{
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+
+    padding:5px;
+    border-radius: 10px;
+    
+    width: 200px;
+    height: 280px;
+
+    flex-direction: column;
+}
+
+.box img{
+    width: 80px;
+    height: auto;
+    justify-content: center;
+
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.name{
+    font-size: 20pt;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.num{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* .bedasendiri{
+    height: 200px;
+    width: auto;
+} */
+
+.boxINC{
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+
+    padding:5px;
+    border-radius: 10px;
+    
+    width: 200px;
+    height: 280px;
+
+    flex-direction: column;
+}
+
+.boxUM{
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+
+    padding:5px;
+    border-radius: 10px;
+    
+    width: 200px;
+    height: 280px;
+
+    flex-direction: column;
+}
+
+.boxINC img{
+    width: 150px;
+    height: auto;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.boxUM img{
+    width: 90px;
+    height: auto;
+    justify-content: center;
+
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.boxINC .name{
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.contain{
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    
+    left:70%;
+    right: 30%;
+    top: 1340px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.contain1{
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    
+    left:50%;
+    right: 50%;
+    top: 1310px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.contain2{
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    
+    left:30%;
+    right: 70%;
+    top: 1340px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.card{
+    height: 435px;
+    width: 225px;
+    border-top-left-radius:90px;
+}
+
+.card:hover{
+    animation: spin 3s infinite linear;
+    transform-style: preserve-3d;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+.card img{
+    height: 435px;
+    width: 225px;
+    border-top-left-radius:160px;
+    border-top-right-radius:160px;
+}
+
+.front,.back{
+    backface-visibility: hidden;
+}
+
+.back{
+    position: relative;
+    transform: rotateY(180deg); 
+    bottom: 100%;
+}
