@@ -12,12 +12,12 @@ main{
 
 @font-face {
     font-family: title;
-    src: url(hello_baby/Hello\ Baby.otf);
+    src: url(HelloBaby.otf);
 }
 
 @font-face {
     font-family: text;
-    src: url(handwriting_16/Handwriting-Regular.otf);
+    src: url(Handwriting-Regular.otf);
 }
 
 p{
