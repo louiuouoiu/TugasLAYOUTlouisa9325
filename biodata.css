@@ -20,20 +20,20 @@ h2{
     align-items: center;
     justify-content: center;
 
-    font-family: "minecraft";
+    font-family: minecraft;
     font-size: 14pt;
 }
 
 h1{
     text-align: center;
-    font-family: "dimitri";
+    font-family: dimitri;
 
     text-shadow: 2px 3px 5px white;
     font-size: 30pt;
 }
 
 p{
-    font-family: "minecraft";
+    font-family: minecraft;
     font-size: 12pt;
 }
 
