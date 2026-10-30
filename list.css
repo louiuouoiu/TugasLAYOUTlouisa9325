@@ -32,7 +32,7 @@ ol{
 
 @font-face{
     font-family: mc;
-    src: url(minecraftFONT/Minecraft.ttf);
+    src: url('Minecraft.ttf');
 }
 
 .texts{
